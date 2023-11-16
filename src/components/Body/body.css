@@ -1,0 +1,43 @@
+.pagination{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width:50%;
+    background-color: rgb(134, 172, 244);
+    border-radius: 10px;
+    font-size: large ;
+}
+.paginationDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 600;
+    
+}
+
+.pagination li:hover{
+    color:orange;
+}
+.pagination li:active{
+    color:orange;
+}
+.selected{
+    color:orange;
+    background-color: rgb(241, 240, 240);
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 50%;
+    
+}
+
+.bodyContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}

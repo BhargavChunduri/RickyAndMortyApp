@@ -1,0 +1,17 @@
+.avatarContainer{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap:15px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.cardsDisplay{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
